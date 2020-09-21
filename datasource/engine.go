@@ -12,7 +12,7 @@ import (
 func NewMysqlEngine() *xorm.Engine {
 
 	//数据库引擎
-	engine, err := xorm.NewEngine("mysql", "root:lovejrc1314520@/qfCms?charset=utf8")
+	engine, err := xorm.NewEngine("mysql", "root:admin666@/myCms?charset=utf8")
 
 	//根据实体创建表
 	//err = engine.CreateTables(new(model.Admin))
